@@ -1,0 +1,44 @@
+.loginform{
+    border: 1px solid black;
+    height: 200px;
+    width: 300px;
+    margin:0 auto;
+    text-align: center;
+    padding:30px;
+}
+
+.signinform{
+    border: 1px solid black;
+    height: 500px;
+    width: 300px;
+    margin:0 auto;
+    text-align: center;
+    padding:30px;
+}
+
+#submit{
+    margin-top: 30px;
+}
+
+.loginclass{
+    border: 1px solid black;
+    height: 150px;
+    width: 300px;
+    margin:0 auto;
+    text-align: center;
+    padding:30px; 
+}
+
+button{
+
+    height: 40px;
+    width: 80px;
+    /* margin-top:20px; */
+    /* padding-top:-30px; */
+}
+
+.loginbutton{
+    /* margin-top:20px; */
+    height: 30px;
+    width: 60px;
+}

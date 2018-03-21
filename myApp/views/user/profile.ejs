@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    
+    <title>Document</title>
+    <!-- <script>
+    function getupdate(){
+        // $('update').on('click',button,function(){
+        //     $.ajax('')
+        // })
+        $.post("/updateUserProfile",function(data){
+            alert("Data Loaded: " + data)});
+
+    }
+    </script>    -->
+
+
+</head>
+<body>
+        <form action="/test/updateUserProfile" method="post">
+        <form action="/test/deleteUser" method="post">
+        
+        <h2><%= header%></h2>
+        <p>Name: <input type="text" name="username" id="name" value=<%= name %>></p>
+        <p>Password: <input type="text" name="password" id="password" value=<%= password %>></p>
+        <p>Age: <input type="text" name="age" id="age" value=<%= age %>></p>
+        <p>City: <input type="text" name="city" id="city" value=<%= city %>></p>
+        <p>Project: <input type="text" name="project" id="project" value=<%= project %>></p>
+        <p>Salary: <input type="text" name="salary" id="salary" value=<%= salary %>></p>
+        <p>ObjectId: <input type="text" name="id" id="id" value=<%=  ObjectId%>></p>
+        
+       
+        
+        
+           <input type="submit" value="Delete">
+       
+        <input type="submit" value="update">
+        </form>
+    </form>
+        <!-- <a href="/test/deleteUser" >Delete</a> -->
+        
+       
+
+</body>
+</html>
